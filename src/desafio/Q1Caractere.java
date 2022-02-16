@@ -21,6 +21,11 @@ public class Q1Caractere {
 			}
 			count++;
 		}
+		//metodo para impressao escada
+		//Q1Caractere.imprime(retorno);
 		return retorno;
+	}
+	public static void imprime(String degraus) {
+		System.out.println(degraus);
 	}
 }
